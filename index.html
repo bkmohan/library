@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>Library</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Library</h1>
+            <button id="main-add-book">Add Book</button>
+        </div>
+
+        <div class="container">
+        <!-- <div class="book-item">
+                <h3 class="title">The Alchemist</h3>
+                <p>Author: <span class="author">Paulo Cohelo</span></p>
+                <p>No. of Pages: <span class="pages">130</span></p>
+                <p>Date Added: <span class="date">17-08-2022</span></p>
+                <div class="tool">
+                    <img class="read-status" src="./images/book.png">
+                    <button data-id="0" class="del-book"></button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div id="modal">
+        <div id="modalContents">
+            <h3>Add New Book</h3>
+            <div id="add-book">
+                <input type="text" name="title" placeholder="Title" required>
+                <input type="text" name="author" placeholder="Author" required>
+                <input type="number" name="pages" placeholder="Pages" min="1" max="10000" required>
+                <input type="date" name="date">
+                <button id="add-book-btn">Add</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
